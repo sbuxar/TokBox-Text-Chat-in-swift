@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046F73731F93A2B6008A825A /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73721F93A2B6008A825A /* OpenTok.framework */; };
+		046F73751F93C283008A825A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73741F93C283008A825A /* AudioToolbox.framework */; };
+		046F73771F93C293008A825A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73761F93C293008A825A /* AVFoundation.framework */; };
+		046F73791F93C29C008A825A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73781F93C29C008A825A /* CoreGraphics.framework */; };
+		046F737B1F93C2AA008A825A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F737A1F93C2AA008A825A /* CoreMedia.framework */; };
+		046F737D1F93C2B2008A825A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F737C1F93C2B2008A825A /* CoreTelephony.framework */; };
+		046F737F1F93C2BA008A825A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F737E1F93C2BA008A825A /* CoreVideo.framework */; };
+		046F73811F93C2CA008A825A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73801F93C2CA008A825A /* Foundation.framework */; };
+		046F73831F93C2D3008A825A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73821F93C2D3008A825A /* GLKit.framework */; };
+		046F73851F93C2E5008A825A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73841F93C2E5008A825A /* libc++.tbd */; };
+		046F73871F93C2ED008A825A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73861F93C2ED008A825A /* libsqlite3.tbd */; };
+		046F73891F93C2FB008A825A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73881F93C2FB008A825A /* OpenGLES.framework */; };
+		046F738B1F93C302008A825A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F738A1F93C302008A825A /* QuartzCore.framework */; };
+		046F738D1F93C311008A825A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F738C1F93C311008A825A /* UIKit.framework */; };
+		046F738F1F93C317008A825A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F738E1F93C317008A825A /* SystemConfiguration.framework */; };
+		046F73911F93C327008A825A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F73901F93C327008A825A /* VideoToolbox.framework */; };
+		04E76A361F74D2DF005E578D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E76A351F74D2DF005E578D /* AppDelegate.swift */; };
+		04E76A381F74D2DF005E578D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E76A371F74D2DF005E578D /* ViewController.swift */; };
+		04E76A3B1F74D2DF005E578D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E76A391F74D2DF005E578D /* Main.storyboard */; };
+		04E76A3D1F74D2DF005E578D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E76A3C1F74D2DF005E578D /* Assets.xcassets */; };
+		04E76A401F74D2DF005E578D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E76A3E1F74D2DF005E578D /* LaunchScreen.storyboard */; };
+		DF1228D5AA0DE842E6328220 /* Pods_openTok_Text_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D2C6CF33CE359504CB3D21D /* Pods_openTok_Text_Chat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046F73721F93A2B6008A825A /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
+		046F73741F93C283008A825A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		046F73761F93C293008A825A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		046F73781F93C29C008A825A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		046F737A1F93C2AA008A825A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		046F737C1F93C2B2008A825A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		046F737E1F93C2BA008A825A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		046F73801F93C2CA008A825A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		046F73821F93C2D3008A825A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		046F73841F93C2E5008A825A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		046F73861F93C2ED008A825A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		046F73881F93C2FB008A825A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		046F738A1F93C302008A825A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		046F738C1F93C311008A825A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		046F738E1F93C317008A825A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		046F73901F93C327008A825A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		04E76A321F74D2DF005E578D /* openTok-Text-Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "openTok-Text-Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E76A351F74D2DF005E578D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E76A371F74D2DF005E578D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04E76A3A1F74D2DF005E578D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E76A3C1F74D2DF005E578D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E76A3F1F74D2DF005E578D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E76A411F74D2DF005E578D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D2C6CF33CE359504CB3D21D /* Pods_openTok_Text_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openTok_Text_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACB123CD5150CB9FB346889 /* Pods-openTok-Text-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openTok-Text-Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-openTok-Text-Chat/Pods-openTok-Text-Chat.release.xcconfig"; sourceTree = "<group>"; };
+		BFEA20D22538AC025211C302 /* Pods-openTok-Text-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openTok-Text-Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openTok-Text-Chat/Pods-openTok-Text-Chat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E76A2F1F74D2DF005E578D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F73911F93C327008A825A /* VideoToolbox.framework in Frameworks */,
+				046F738F1F93C317008A825A /* SystemConfiguration.framework in Frameworks */,
+				046F738D1F93C311008A825A /* UIKit.framework in Frameworks */,
+				046F738B1F93C302008A825A /* QuartzCore.framework in Frameworks */,
+				046F73891F93C2FB008A825A /* OpenGLES.framework in Frameworks */,
+				046F73871F93C2ED008A825A /* libsqlite3.tbd in Frameworks */,
+				046F73851F93C2E5008A825A /* libc++.tbd in Frameworks */,
+				046F73831F93C2D3008A825A /* GLKit.framework in Frameworks */,
+				046F73811F93C2CA008A825A /* Foundation.framework in Frameworks */,
+				046F737F1F93C2BA008A825A /* CoreVideo.framework in Frameworks */,
+				046F737D1F93C2B2008A825A /* CoreTelephony.framework in Frameworks */,
+				046F737B1F93C2AA008A825A /* CoreMedia.framework in Frameworks */,
+				046F73791F93C29C008A825A /* CoreGraphics.framework in Frameworks */,
+				046F73771F93C293008A825A /* AVFoundation.framework in Frameworks */,
+				046F73751F93C283008A825A /* AudioToolbox.framework in Frameworks */,
+				DF1228D5AA0DE842E6328220 /* Pods_openTok_Text_Chat.framework in Frameworks */,
+				046F73731F93A2B6008A825A /* OpenTok.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E76A291F74D2DF005E578D = {
+			isa = PBXGroup;
+			children = (
+				04E76A341F74D2DF005E578D /* openTok-Text-Chat */,
+				04E76A331F74D2DF005E578D /* Products */,
+				FE22A45AA7EB3331F61DAD70 /* Pods */,
+				19B06E020F2166A538E34856 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E76A331F74D2DF005E578D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E76A321F74D2DF005E578D /* openTok-Text-Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E76A341F74D2DF005E578D /* openTok-Text-Chat */ = {
+			isa = PBXGroup;
+			children = (
+				04E76A351F74D2DF005E578D /* AppDelegate.swift */,
+				04E76A371F74D2DF005E578D /* ViewController.swift */,
+				04E76A391F74D2DF005E578D /* Main.storyboard */,
+				04E76A3C1F74D2DF005E578D /* Assets.xcassets */,
+				04E76A3E1F74D2DF005E578D /* LaunchScreen.storyboard */,
+				04E76A411F74D2DF005E578D /* Info.plist */,
+			);
+			path = "openTok-Text-Chat";
+			sourceTree = "<group>";
+		};
+		19B06E020F2166A538E34856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046F73901F93C327008A825A /* VideoToolbox.framework */,
+				046F738E1F93C317008A825A /* SystemConfiguration.framework */,
+				046F738C1F93C311008A825A /* UIKit.framework */,
+				046F738A1F93C302008A825A /* QuartzCore.framework */,
+				046F73881F93C2FB008A825A /* OpenGLES.framework */,
+				046F73861F93C2ED008A825A /* libsqlite3.tbd */,
+				046F73841F93C2E5008A825A /* libc++.tbd */,
+				046F73821F93C2D3008A825A /* GLKit.framework */,
+				046F73801F93C2CA008A825A /* Foundation.framework */,
+				046F737E1F93C2BA008A825A /* CoreVideo.framework */,
+				046F737C1F93C2B2008A825A /* CoreTelephony.framework */,
+				046F737A1F93C2AA008A825A /* CoreMedia.framework */,
+				046F73781F93C29C008A825A /* CoreGraphics.framework */,
+				046F73761F93C293008A825A /* AVFoundation.framework */,
+				046F73741F93C283008A825A /* AudioToolbox.framework */,
+				046F73721F93A2B6008A825A /* OpenTok.framework */,
+				4D2C6CF33CE359504CB3D21D /* Pods_openTok_Text_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE22A45AA7EB3331F61DAD70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFEA20D22538AC025211C302 /* Pods-openTok-Text-Chat.debug.xcconfig */,
+				9ACB123CD5150CB9FB346889 /* Pods-openTok-Text-Chat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E76A311F74D2DF005E578D /* openTok-Text-Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E76A441F74D2DF005E578D /* Build configuration list for PBXNativeTarget "openTok-Text-Chat" */;
+			buildPhases = (
+				FD57B4EC56CF41427AC83E42 /* [CP] Check Pods Manifest.lock */,
+				04E76A2E1F74D2DF005E578D /* Sources */,
+				04E76A2F1F74D2DF005E578D /* Frameworks */,
+				04E76A301F74D2DF005E578D /* Resources */,
+				59CF70A182A780F2DD8429CB /* [CP] Embed Pods Frameworks */,
+				FCCC5D726CC20F7FFE62BA84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "openTok-Text-Chat";
+			productName = "openTok-Text-Chat";
+			productReference = 04E76A321F74D2DF005E578D /* openTok-Text-Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E76A2A1F74D2DF005E578D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sabir;
+				TargetAttributes = {
+					04E76A311F74D2DF005E578D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q25MCTH6LN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04E76A2D1F74D2DF005E578D /* Build configuration list for PBXProject "openTok-Text-Chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E76A291F74D2DF005E578D;
+			productRefGroup = 04E76A331F74D2DF005E578D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E76A311F74D2DF005E578D /* openTok-Text-Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E76A301F74D2DF005E578D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E76A401F74D2DF005E578D /* LaunchScreen.storyboard in Resources */,
+				04E76A3D1F74D2DF005E578D /* Assets.xcassets in Resources */,
+				04E76A3B1F74D2DF005E578D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59CF70A182A780F2DD8429CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-openTok-Text-Chat/Pods-openTok-Text-Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCC5D726CC20F7FFE62BA84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-openTok-Text-Chat/Pods-openTok-Text-Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD57B4EC56CF41427AC83E42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E76A2E1F74D2DF005E578D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E76A381F74D2DF005E578D /* ViewController.swift in Sources */,
+				04E76A361F74D2DF005E578D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E76A391F74D2DF005E578D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E76A3A1F74D2DF005E578D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E76A3E1F74D2DF005E578D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E76A3F1F74D2DF005E578D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E76A421F74D2DF005E578D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E76A431F74D2DF005E578D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E76A451F74D2DF005E578D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEA20D22538AC025211C302 /* Pods-openTok-Text-Chat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q25MCTH6LN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "openTok-Text-Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sabir.openTok-Text-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04E76A461F74D2DF005E578D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ACB123CD5150CB9FB346889 /* Pods-openTok-Text-Chat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Q25MCTH6LN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "openTok-Text-Chat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sabir.openTok-Text-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E76A2D1F74D2DF005E578D /* Build configuration list for PBXProject "openTok-Text-Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E76A421F74D2DF005E578D /* Debug */,
+				04E76A431F74D2DF005E578D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E76A441F74D2DF005E578D /* Build configuration list for PBXNativeTarget "openTok-Text-Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E76A451F74D2DF005E578D /* Debug */,
+				04E76A461F74D2DF005E578D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E76A2A1F74D2DF005E578D /* Project object */;
+}
