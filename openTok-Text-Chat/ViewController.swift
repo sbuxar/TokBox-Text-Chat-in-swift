@@ -68,16 +68,35 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     
     @IBAction func onSend(_ sender: Any) {
-        if !textField.text!.trimmingCharacters(in: .whitespaces).isEmpty {
-            // string contains non-whitespace characters
-            flagArray.append(true)
-            messages.append(textField.text!)
-            print("Hello", textField.text!)
-            textField.text = ""
-            // Reloading table data
-            messageList.reloadData()
+        
+        if textField.text == ""  {
+             print("can't send empty message")
+        }else
+        {
+            var error:OTError?
+            
+            
+            let connection : OTConnection? = nil
+            
+            session?.signal(withType: "chat", string: textField.text!, connection: connection, error: &error)
+            
+            if ((error) != nil) {
+                print("signal error %@", error);
+            } else {
+                    if !textField.text!.trimmingCharacters(in: .whitespaces).isEmpty {
+                    flagArray.append(true)
+                    messages.append(textField.text!)
+                    print("Hello", textField.text!)
+                    textField.text = ""
+                    // Reloading table data
+                    messageList.reloadData()
+                }
+                
+            }
             
         }
+        
+
         
     }
     
